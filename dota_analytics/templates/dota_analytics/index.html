@@ -1,0 +1,129 @@
+{% load staticfiles %}
+{% csrf_token %}
+<html lang="en">
+
+<head>
+    <title>{% block title %}DotA 2{% endblock %} </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{% static 'dota_analytics/styles/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'dota_analytics/styles/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'dota_analytics/styles/scss/style.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+</head>
+
+<body>
+        <main>
+                <header><div id="header-hero"></div></header>
+                <template id="cube-template">
+                  <div class="cube">
+                    <div class="shadow"></div>
+                    <div class="sides">
+                      <div class="back"></div>
+                      <div class="top"></div>
+                      <div class="left"></div>
+                      <div class="front"></div>
+                      <div class="right"></div>
+                      <div class="bottom"></div>
+                    </div>
+                  </div>
+                </template>
+        </main>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand text-uppercase" href="/">DotA 2</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto invisible">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-home"></i>
+                    </a>
+                    <a class="nav-link" href="/search/">Search</a>
+                    <a class="nav-link" href="/upload/">Upload</a>
+                    <a class="nav-link" href="/queue/">Queue</a>
+                </ul>
+                <div class="header-right">
+                    <div>
+                        <i class="far fa-user"></i>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Akshat Gupta
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="/login/">Log out</a>
+                            <!--<a class="dropdown-item" href="#">Another action</a>-->
+                            <!--<a class="dropdown-item" href="#">Something else here</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="sub-header-wrapper index-sub">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="index-header">
+                            <h4>DotA analysis</h4>
+                            <ul style="display:none;">
+                                <li>optionally also contain following</li>
+                                <li>upload your custom dictionaries</li>
+                                <li>tagging dictionary is as follows</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="container-fluid index-margin">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="group-items">
+                            <a href="/search/" style="color:inherit;">
+                                <i class="fas fa-search"></i>
+                                <h2>Search</h2>
+                                <span>Don't know where to start? <br/>Search with the Match ID's to look at game data</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="group-items">
+                            <a href="/upload/" style="color:inherit;">
+                                <i class="fas fa-comments"></i>
+                                <h2>Chat Cloud</h2>
+                                <span>See the Chat Cloud over</br>a range of Game ID's</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="group-items">
+                            <a href="/queue/" style="color:inherit;">
+                                <i class="fas fa-chart-line"></i>
+                                <h2>Prediction</h2>
+                                <span>Want a prediction of the match picks</br>Check what it says!</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>Powered by NeoNash</footer>
+</body>
+
+
+<script src="{% static 'dota_analytics/script/js/jquery-3.2.1.slim.min.js' %}"></script>
+<script src="{% static 'dota_analytics/script/js/popper.min.js' %}"></script>
+<script src="{% static 'dota_analytics/script/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'dota_analytics/script/js/index-animate.js' %}"></script>
+</html>
