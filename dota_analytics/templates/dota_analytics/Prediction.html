@@ -37,12 +37,6 @@
                                                     </div>
                                                     <div class="modal-body">
                                                         <img src="{% static 'dota_analytics/images/guides/search.png' %}" style="max-width:100%;">
-                                                      <!--<ul>-->
-                                                          <!--<li>Enter the product category that you wish to search for</li>-->
-                                                          <!--<li>Select the source from where to scrape</li>-->
-                                                          <!--<li>Select the default tagging dictionary</li>-->
-                                                          <!--<li>Finally, click on Start!</li>-->
-                                                      <!--</ul>       -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -80,7 +74,7 @@
                     <div class="search-keyword">
                         <input type="text" placeholder="Search Keyword" id="search-query" name="searchterm">
                         <button id="search-query-submit" class="btn btn-sm btn-primary">
-                            <i class="fas fa-search"></i>
+                            <em class="fas fa-search"></em>
                         </button>
                     </div>
                     <div class="search-list">
@@ -137,7 +131,6 @@
 
     <div class="row">
         <div style="visibility:hidden;" id="request-notification" >
-                <!--<span class="alert alert-info alert-dismissible">-->
                Request raised succesfully
                 <!--</span>-->
         </div>
@@ -155,70 +148,10 @@
 
 <script src="{% static 'dota_analytics/script/search.js' %}"></script>
     <script src="{% static 'dota_analytics/script/url_utils.js' %}"></script>
-    <!--<script src="{% static 'dota_analytics/script/vendor/jsgrid.min.js' %}"></script>-->
-    <script type="text/javascript">
-        //var js_list = "{{dict|safe}}";
-        //var json_string = unescape({{json_list|safe|escape}});
-        //console.log(json_string);
-        //console.log(js_list);
+    <script src="{% static 'dota_analytics/script/vendor/jsgrid.min.js' %}"></script>
 
 
 
-        var productList = [];
-        /*
-        ls = (Object.keys({{dict_time|safe}}));
-        ts = (Object.values({{dict_time|safe}}));
-        obj = JSON.stringify({{dict_time|safe}})
-        //console.log(obj)
-        obj = JSON.parse(obj)
-        //console.log(obj)
-        for ( i in ls ) {
-            val = obj[ls[i]]
-            console.log(val)
-        }
-        */
 
-        var createAutoCompleteListFromProductList = function(productList) {
-            var autoCompleteList = [];
-            //console.log(productList);
-            var i;
-            for (i=0; i< productList.length;i++) {
-                if(productList[i].indexOf(".csv") == -1){
-                    autoCompleteList.push(productList[i]);
-                }
-                /*else{
-                    autoCompleteList.push(productList[i].substring(0,productList[i].length - 4));
-                }*/
-            }
-            console.log(autoCompleteList);
-            $( "#search-query" ).autocomplete({
-                source: autoCompleteList
-            });
-        };
-
-        $.get('/service/product_list/').then(function (successResponse) {
-            productList = JSON.parse(successResponse);
-            autoLs = createAutoCompleteListFromProductList(productList);
-            //console.log(productList);
-
-        }, function (errorResponse) {
-            console.log("This is error response for autocomplete");
-        });
-
-        $("#search-query").change(function() {
-             console.log( "Handler for .change() called." );
-             tag = $('#search-query').val();
-             console.log('Product', tag);
-             for (i in productList){
-                if(productList[i]["name"] == tag){
-                    $("#last-refreshed").text(productList[i]["lastUpdated"])
-                    console.log(productList[i]["lastUpdated"])
-                }
-             }
-        });
-
-
-
-    </script>
 
 {% endblock %}
