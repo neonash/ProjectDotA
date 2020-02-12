@@ -20,4 +20,4 @@ var x = (function (urlUtils) {
     };
 
 
-})(window.urlUtils || (window.urlUtils = {}));
+}(window.urlUtils || (window.urlUtils = {})));

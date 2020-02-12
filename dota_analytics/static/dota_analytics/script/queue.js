@@ -1,4 +1,4 @@
-(function() {
+((function() {
     $("#main-panel").addClass("hidden");
     $("#refresh-data").addClass("hidden");
     $("#search").addClass("active");
@@ -77,4 +77,4 @@
 
     $(".jsgrid-grid-body").css("height", "100%");
 }
-)();
+)());
