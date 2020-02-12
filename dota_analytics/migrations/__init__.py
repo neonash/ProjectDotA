@@ -1,0 +1,1 @@
+"""Initialize Custom Migration configuration Library for Project."""

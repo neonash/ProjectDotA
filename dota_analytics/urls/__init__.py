@@ -1,0 +1,1 @@
+'''Initialize Custom URL configuration Library for Project.'''
