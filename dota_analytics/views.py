@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.decorators import login_required
 from dota_analytics.forms import PasswordResetForm
@@ -42,7 +41,7 @@ def signup(request):
             raw_password = form.cleaned_data.get('password1')
             user = authenticate(username=username, password=raw_password)
             login(request, user)
-            return redirect('login')
+            return render('login')
     else:
         form = SignUpForm()
     return render(request, 'registration/signup.html', {'form': form})

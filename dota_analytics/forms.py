@@ -2,10 +2,6 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from django import forms
-from django.conf import settings
-from django.core.mail import send_mail
-import smtplib
-
 
 # If you don't do this you cannot use Bootstrap CSS
 class LoginForm(AuthenticationForm):
@@ -27,5 +23,6 @@ class SignUpForm(UserCreationForm):
     email = forms.EmailField(max_length=254, help_text='Required. Inform a valid email address.')
 
     class Meta:
+        '''Meta class for login'''
         model = User
         fields = ('username', 'first_name', 'last_name', 'email', 'password1', 'password2', )

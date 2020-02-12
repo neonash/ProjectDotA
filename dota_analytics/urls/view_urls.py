@@ -1,13 +1,6 @@
 from django.conf.urls import url,include
 from dota_analytics import views
-# from dota_analytics.forms import LoginForm
-# from dota_analytics.forms import PasswordResetForm
-#from django.contrib.auth import views as vi
-
-from dota_analytics.forms import LoginForm
-from dota_analytics.forms import PasswordResetForm
 from django.contrib.auth import views as vi
-
 
 urlpatterns = [
     url(r'^$', views.home, name='home'),
