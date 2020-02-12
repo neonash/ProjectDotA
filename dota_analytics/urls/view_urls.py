@@ -25,5 +25,6 @@ from django.contrib.auth import views as vi
 urlpatterns = [
     url(r'^$', views.home, name='home'),
     url(r'^home/$', views.home, name='home'),
+    url(r'prediction/$', views.prediction, name ='prediction')
 
 ]

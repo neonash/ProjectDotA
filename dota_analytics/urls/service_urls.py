@@ -15,13 +15,14 @@ Including another URLconf
 """
 
 from django.conf.urls import url
-# from dota_analytics import views
+from dota_analytics import views
+from dota_analytics.services import fetchdata_service
 # from dota_analytics import summary, analysis, clustering  # , discover
 
 
 urlpatterns = [
+    url(r'^getData/$', fetchdata_service.deparseTrainData),
+    url(r'^pushData/$', fetchdata_service.parseData),
 
-
-    # url(r'^discover_service/$', discover.getZeppelin),
 ]
 

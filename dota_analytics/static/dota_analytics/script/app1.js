@@ -135,7 +135,7 @@ var request = window.urlUtils.getQueryParameter(window.location.href, 'request')
 //             });
         }
 
-        // Clear the previous model.
+        // Clear the previous prediction_model.
         foamtree.set("dataObject", null);
         foamtree.set("logging", true);
 

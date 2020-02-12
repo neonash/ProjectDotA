@@ -2,267 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f0006c1-3ce8-4973-a94d-9a26a878fadc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/css/changelists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/css/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/css/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/fonts/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/calendar-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/icon-addlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/icon-alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/icon-calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/icon-changelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/icon-clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/icon-deletelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/icon-no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/icon-unknown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/icon-yes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/inline-delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/selector-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/sorting-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/tooltag-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/SelectBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/SelectFilter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/actions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/cancel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/change_form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/collapse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/inlines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/inlines.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/jquery.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/popup_response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/prepopulate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/prepopulate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/prepopulate_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/timeparse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/urlify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/avatar/128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/avatar/48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/avatar/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/avatar/profile-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/avatar/user48.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/avatar/user48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/bg/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/bg/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/bg/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/bg/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/bg/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/bg/login-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/blogs/blog_item1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/gallery/blog_item1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/guides/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/guides/upload_data.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/guides/upload_driver.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/guides/upload_senti.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/guides/upload_tag.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/icons/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/icons/amazon_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/icons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/icons/header.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/icons/header2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/icons/header3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/icons/header4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/icons/homedepot_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/icons/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/icons/rightarrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/icons/rightarrow1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/icons/walmart_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/arch-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/arch-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/autumn-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/boats-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/book-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/business-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/calendar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/car-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/christmas-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/christmas-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/christmas-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/city-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/city-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/coffee-grass.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/coins.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/crayons.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/cupcakes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/eggs-nest.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/flower-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/flower-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/flower-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/fountain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/leaves.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/lichterman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/pinecone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/river-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/river-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/sunset-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/tree.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/winter-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/winter-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/winter-sun.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/thumbs/woodstump.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/app.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/app1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/association.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/brand_summary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/chart_utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/clustering.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/discover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/js/high-chart-code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/js/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/js/index-animate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/js/jquery-3.2.1.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/js/multi.select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/js/multiselect-filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/pivotgrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/queue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/topicmodeling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/upload - Backup Copy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/url_utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/angular-resource.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/angular-route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/angular-route.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/bootstrap-hover-dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/canvas-to-blob.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/carrotsearch.foamtree.asserts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/carrotsearch.foamtree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/carrotsearch.foamtree.util.hints.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/carrotsearch.foamtree.util.loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/carrotsearch.foamtree.util.relaxationprogress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/carrotsearch.foamtree.util.treemodel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/holder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/jquery-3.2.1.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/jquery-migrate-1.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/jquery.flot.categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/jquery.menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/jquery.metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/jquery.slimscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/jsgrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/pace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/purify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/responsive-tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/sortable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/clustering.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/css/multi.select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/css/fa-brands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/css/fa-brands.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/css/fa-regular.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/css/fa-regular.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/css/fa-solid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/css/fa-solid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/css/fontawesome-all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/css/fontawesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/fontawesome/web-fonts-with-css/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/jsgrid-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/jsgrid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/scroll_filter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/scss/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/scss/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/styles/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/templates/dota_analytics/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/urls/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/urls/service_urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/urls/url_mounts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dota_analytics/urls/view_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dota_analytics/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dota_analytics/config/dbConfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dota_analytics/prediction_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dota_analytics/prediction_model/dota_model4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dota_analytics/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dota_analytics/services/fetchdata_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/dota_victory.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dota_analytics/templates/dota_analytics/Prediction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dota_analytics/templates/dota_analytics/Queue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dota_analytics/templates/dota_analytics/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectDotA/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectDotA/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectDotA/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectDotA/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dota_analytics/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dota_analytics/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/app1.js" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/app1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/clustering.js" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/clustering.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/queue.js" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/queue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/carrotsearch.foamtree.js" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/carrotsearch.foamtree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/carrotsearch.foamtree.util.treemodel.js" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/carrotsearch.foamtree.util.treemodel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/vendor/jquery.flot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dota_analytics/templates/dota_analytics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/templates/dota_analytics/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dota_analytics/urls/service_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/urls/service_urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dota_analytics/urls/view_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/urls/view_urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dota_analytics/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -295,14 +58,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dota_analytics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\49177\PycharmProjects\ProjectDotA\dota_analytics" />
-      <recent name="C:\Users\49177\PycharmProjects\ProjectDotA\dota_analytics\templates\dota_analytics" />
-      <recent name="C:\Users\49177\PycharmProjects\ProjectDotA\dota_analytics\urls" />
+      <recent name="C:\Users\49177\PycharmProjects\ProjectDotA\dota_analytics\static\dota_analytics\images" />
+      <recent name="C:\Users\49177\PycharmProjects\ProjectDotA\dota_analytics\prediction_model" />
+      <recent name="C:\Users\49177\PycharmProjects\ProjectDotA\dota_analytics\static\dota_analytics\script" />
+      <recent name="C:\Users\49177\PycharmProjects\ProjectDotA\dota_analytics\model" />
+      <recent name="C:\Users\49177\PycharmProjects\ProjectDotA\dota_analytics\services" />
     </key>
   </component>
   <component name="RunManager">
@@ -355,7 +120,10 @@
       <workItem from="1579179493056" duration="4586000" />
       <workItem from="1580728984911" duration="1111000" />
       <workItem from="1580730737701" duration="5773000" />
-      <workItem from="1580750855158" duration="306000" />
+      <workItem from="1580750855158" duration="1709000" />
+      <workItem from="1580901395217" duration="730000" />
+      <workItem from="1581190938968" duration="37803000" />
+      <workItem from="1581498498513" duration="319000" />
     </task>
     <servers />
   </component>
@@ -363,6 +131,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Inspections" timestamp="1581271862045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1581271862045" />
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580729302601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -371,21 +143,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580730840599" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1580733648682">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581191155028">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580733648682" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581191155028" />
     <state x="279" y="58" key="SettingsEditor" timestamp="1580730709914">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580730709914" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1580750935366">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581190950369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580750935366" />
-    <state x="490" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580736738507">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581190950369" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1581269392518">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580736738507" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1581269392518" />
+    <state x="462" y="144" width="611" height="536" key="find.popup" timestamp="1581268988484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="462" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1581268988484" />
+    <state x="490" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581269418430">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581269418430" />
   </component>
 </project>
