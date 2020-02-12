@@ -57,7 +57,6 @@ def predict(new_data):
 def formatNewdata(records,match_id):
     """Format the data to transpose the match details to be passed to prediction function."""
     new_obj = {}
-    print(records)
     for i in records:
         new_obj[i['player'] + '_gold'] = int(i['gold'])
         new_obj[i['player'] + '_xp'] = int(i['xp'])
