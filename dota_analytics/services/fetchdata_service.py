@@ -14,6 +14,7 @@ logger = logging.getLogger(__name__)
 
 class FetchParseData:
     """Fetch and parse data to send to the client."""
+
     def deparseTrainData(request):
         req = TrainData.objects.all().values()[:1]
         data = list(req)

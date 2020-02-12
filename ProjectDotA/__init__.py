@@ -1,1 +1,1 @@
-"""Project DotA Init at ROOT"""
+"""Project DotA Init at ROOT."""

@@ -1,5 +1,4 @@
-"""
-WSGI config for ProjectDotA project.
+"""WSGI config for ProjectDotA project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

@@ -55,6 +55,7 @@ class TestData(models.Model):
     d5_level = models.FloatField()
 
     class Meta:
+        """Test Data Model."""
         db_table = 'test_data'
 
 
@@ -112,6 +113,7 @@ class TrainData(models.Model):
     d5_level = models.FloatField()
 
     class Meta:
+        """Train Data Model."""
         db_table = 'train_data'
 
 
@@ -120,4 +122,5 @@ class TrainTargets(models.Model):
     radiant_win = models.IntegerField()
 
     class Meta:
+        """Train Target Model."""
         db_table = 'train_targets'
