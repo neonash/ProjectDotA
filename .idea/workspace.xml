@@ -2,40 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f0006c1-3ce8-4973-a94d-9a26a878fadc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ProjectDotA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectDotA.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sonarcloud.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.sonarcloud.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectDotA/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectDotA/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dota_analytics/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/config/dbConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/config/dbConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/prediction_model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/prediction_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/services/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dota_analytics/services/fetchdata_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/services/fetchdata_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/app.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/app1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/association.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/brand_summary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/chart_utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/clustering.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/discover.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/js/high-chart-code.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/js/highcharts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/js/multi.select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/js/multiselect-filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/pivotgrid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/request.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/topicmodeling.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/upload - Backup Copy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/static/dota_analytics/script/upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/templates/dota_analytics/Prediction.html" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/templates/dota_analytics/Prediction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/templates/registration/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/templates/registration/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dota_analytics/urls/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/urls/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/urls/service_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/urls/service_urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dota_analytics/urls/view_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/urls/view_urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

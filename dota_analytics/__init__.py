@@ -1,1 +1,1 @@
-'''Initialize Custom Dota_analytics App Library for Project.'''
+"""Initialize Custom Dota_analytics App Library for Project."""
