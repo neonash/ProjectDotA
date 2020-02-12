@@ -56,6 +56,7 @@ class TestData(models.Model):
 
     class Meta:
         """Test Data Model."""
+
         db_table = 'test_data'
 
 
@@ -114,6 +115,7 @@ class TrainData(models.Model):
 
     class Meta:
         """Train Data Model."""
+
         db_table = 'train_data'
 
 
@@ -123,4 +125,5 @@ class TrainTargets(models.Model):
 
     class Meta:
         """Train Target Model."""
+
         db_table = 'train_targets'
