@@ -37,6 +37,8 @@
 
                         <p class="bs-component">
                             <table>
+                            <caption>Login Table</caption>
+
                                 <br/>
                                 <tr >
                                     <td style="padding: 10px 5px;">{{ form.username.label_tag }}</td>
@@ -50,9 +52,9 @@
                             </table>
                         </p>
                         <p class="bs-component">
-                            <center>
+                            <div style="margin:auto">
                                 <input class="btn btn-success btn-sm" type="submit" value="Login" />
-                            </center>
+                            </div>
                         </p>
                         <input type="hidden" name="next" value="{{ next }}" />
                     </form>

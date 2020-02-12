@@ -12,7 +12,6 @@ class LoginForm(AuthenticationForm):
 
 
 class PasswordResetForm(UserCreationForm):
-    #template_name = "registration/password_reset_form.html"
     email = forms.EmailField(label="Email", max_length=254,
                             widget=forms.TextInput(attrs={'class': 'form-control', 'name': 'email'}))
     success_url = '/password_reset/done/'

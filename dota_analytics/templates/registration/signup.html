@@ -26,9 +26,9 @@
                         {% endfor %}
                         </p>
                         <p class="bs-component">
-                            <center>
+                            <div style="margin:auto">
                                 <input class="btn btn-success btn-sm" type="submit" value="Sign Up" />
-                            </center>
+                            </div>
                         </p>
                         <p class="bs-component">
                             <input type="hidden" name="next" value="{{ next }}" />
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="row">
-                <center>Already registered? <a href="{% url 'login' %}">Sign in</a></center>
+                <div style="margin:auto">Already registered? <a href="{% url 'login' %}">Sign in</a></div>
             </div>
             <br/>
         </div>

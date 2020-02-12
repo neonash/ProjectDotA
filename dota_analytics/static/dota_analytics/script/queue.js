@@ -1,13 +1,10 @@
 (function() {
-    $("#main-panel").addClass('hidden');
-    $('#refresh-data').addClass('hidden');
-    $('#search').addClass('active');
-
-
-    var searchQuery = null;
+    $("#main-panel").addClass("hidden");
+    $("#refresh-data").addClass("hidden");
+    $("#search").addClass("active");
 
     //Read the requests from the queue
-    $.get('/service/getData/').then(function (successResponse) {
+    $.get("/service/getData/").then(function (successResponse) {
 
         $("#jsGrid").jsGrid({
             width: "100%",
@@ -40,28 +37,23 @@
 
         });
     }, function (errorResponse) {
-            console.log("errorResponse", errorResponse)
     });
 
 
-    $('#btnPredict').on('click', function (e) {
+    $("#btnPredict").on("click", function (e) {
 
     var data = $("#jsGrid").jsGrid("option", "data");
-    console.log(data);
     var type = null;
     var url= null;
-    var match_id =  Math.random().toString(36).substring(2,6) + Math.random().toString(36).substring(2, 6);
+    var matchId =  Math.random().toString(36).substring(2,6) + Math.random().toString(36).substring(2, 6);
     $.ajax({
-        type : 'POST',
+        type : "POST",
         url : "/service/pushData/",
         headers: {
-            'X-CSRFToken': $.cookie('X-CSRFToken')
+            "X-CSRFToken": $.cookie("X-CSRFToken")
         },
-        data:  {'match_id_hash': match_id , 'records': JSON.stringify(data)},
-        success: function(response) {
-            // alert("Request raised succesfully");
-//                                    alert(JSON.stringify(tag_dict));
-            console.log("Prediction value=", response);
+        data:  {"match_id_hash": matchId , "records": JSON.stringify(data)},
+        success(response) {
             if(response>0.5){
                 $( ".card-body a" ).text("Radiant");
                 $( ".card-body p" ).text("With a Win (%) Probability of :");
@@ -76,13 +68,13 @@
 
 
         },
-        failure: function(response) {
-            alert("Failure")
+        failure() {
+            alert("Failure");
         }
     });
 });
 
 
-    $('.jsgrid-grid-body').css('height', '100%');
+    $(".jsgrid-grid-body").css("height", "100%");
 }
 )();
