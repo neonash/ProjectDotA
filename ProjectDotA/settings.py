@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'dota_analytics',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -51,6 +52,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'ProjectDotA.urls'
+
+LOGIN_REDIRECT_URL = '/'  # It means home view
 
 TEMPLATES = [
     {
@@ -72,14 +75,6 @@ WSGI_APPLICATION = 'ProjectDotA.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
 
 DATABASES = {
     'unuseddb': {
@@ -115,6 +110,11 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+#Generate Graph models settings
+GRAPH_MODELS = {
+  'all_applications': True,
+  'group_models': True,
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/

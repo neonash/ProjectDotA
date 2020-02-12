@@ -1,6 +1,6 @@
 {% load staticfiles %}
 {% csrf_token %}
-<!--<!DOCTYPE html5>-->
+<!DOCTYPE html5>
 <html lang="en">
 <head>
         <title>    {% block title %}{% endblock %} </title>
@@ -16,7 +16,6 @@
         <link type="text/css" rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <!-- Latest compiled and minified CSS Bootstrap select-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
-        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/css/bootstrap-multiselect.css">-->
         <link type="text/css" rel="stylesheet" href="{% static 'dota_analytics/styles/jsgrid.min.css' %}" />
         <link type="text/css" rel="stylesheet" href="{% static 'dota_analytics/styles/jsgrid-theme.min.css' %}" />
         <link rel="stylesheet" href="{% static 'dota_analytics/styles/scroll_filter.css' %}">
@@ -32,13 +31,13 @@
             <a class="navbar-brand text-uppercase" href="/">Dota 2</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
+                <em class="fas fa-bars"></em>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                     <li><a class="nav-link" href="/">
-                        <i class="fas fa-home"></i>
+                        <em class="fas fa-home"></em>
                     </a></li>
                     <li><a id="search" class="nav-link" href="/search/">Search</a></li>
                     <li><a id="chat" class="nav-link" href="/chat/">Chat</a></li>
@@ -47,22 +46,16 @@
                 </ul>
                 <div class="header-right">
                     <div>
-                        <i class="far fa-user"></i>
+                        <em class="far fa-user"></em>
                     </div>
-                    <li class="dropdown">
+                    <ol class="dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarUserDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">Akshat Gupta</a>
                         <div class="dropdown-menu" aria-labelledby="navbarUserDropdown">
                             <a id="logout" class="dropdown-item" href="/">Log out</a>
                         </div>
-                    </li>
-                    <!--<div class="dropdown">-->
-                        <!--<button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"-->
-                            <!--aria-expanded="false">-->
-                            <!--Akshat Gupta-->
-                        <!--</button>-->
-                            <!--<a href="/" class="dropdown-menu logout" aria-labelledby="dropdownMenu2">Log out</a>-->
-                    <!--</div>-->
+                    </ol>
+
                 </div>
             </div>
         </nav>

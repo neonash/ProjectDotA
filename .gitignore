@@ -18,6 +18,23 @@ dota_analytics/static/dota_analytics/script/discover.js
 dota_analytics/static/dota_analytics/script/pivotgrid.js
 dota_analytics/static/dota_analytics/script/request.js
 dota_analytics/static/dota_analytics/script/search.js
+dota_analytics/static/dota_analytics/script/topicmodeling.js
+dota_analytics/static/dota_analytics/script/upload.js
+dota_analytics/static/dota_analytics/script/upload - Backup Copy.js
+
+dota_analytics/static/dota_analytics/script/js/high-chart-code.js
+dota_analytics/static/dota_analytics/script/js/highcharts.js
+dota_analytics/static/dota_analytics/script/js/index-animate.js
+dota_analytics/static/dota_analytics/script/js/multiselect-filter.js
+
+dota_analytics/static/dota_analytics/script/vendor/angular-resource.min.js
+dota_analytics/static/dota_analytics/script/vendor/angular.min.js
+dota_analytics/static/dota_analytics/script/vendor/angular-route.js
+dota_analytics/static/dota_analytics/script/vendor/canvas-to-blob.min.js
+dota_analytics/static/dota_analytics/script/vendor/carrot*
+
+
+
 
 
 
