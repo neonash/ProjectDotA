@@ -15,7 +15,7 @@
  * Copyright 2002-2016, Carrot Search s.c, All Rights Reserved.
  *
  *
- * A number of utilities for working with a hierarchical model of groups.
+ * A number of utilities for working with a hierarchical prediction_model of groups.
  */
 window.CarrotSearchFoamTree.TreeModel = {
   eachDescendantAndSelf: function (root, callback) {

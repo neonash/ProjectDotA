@@ -4,3 +4,6 @@ from django.http import HttpResponse
 
 def home(request):
     return render(request, 'dota_analytics/index.html')
+
+def prediction(request):
+    return render(request, 'dota_analytics/Queue.html')

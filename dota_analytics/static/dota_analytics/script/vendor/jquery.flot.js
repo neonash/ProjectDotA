@@ -1659,7 +1659,7 @@ Licensed under the MIT license.
       var noTicks;
       if (typeof opts.ticks == "number" && opts.ticks > 0) noTicks = opts.ticks;
       else
-      // heuristic based on the model a*sqrt(x) fitted to
+      // heuristic based on the prediction_model a*sqrt(x) fitted to
       // some data points that seemed reasonable
       noTicks = 0.3 * Math.sqrt(axis.direction == "x" ? surface.width : surface.height);
 

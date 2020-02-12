@@ -1,0 +1,135 @@
+{% load staticfiles %}
+{% csrf_token %}
+<!--<!DOCTYPE html5>-->
+<html lang="en">
+<head>
+        <title>    {% block title %}{% endblock %} </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--Loading bootstrap css-->
+		<link href="{% static 'dota_analytics/styles/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+		<link href="{% static 'dota_analytics/styles/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css' %}" rel="stylesheet" type="text/css">
+		<link href="{% static 'dota_analytics/styles/scss/style.css' %}" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+        <link type="text/css" rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <!-- Latest compiled and minified CSS Bootstrap select-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/css/bootstrap-multiselect.css">-->
+        <link type="text/css" rel="stylesheet" href="{% static 'dota_analytics/styles/jsgrid.min.css' %}" />
+        <link type="text/css" rel="stylesheet" href="{% static 'dota_analytics/styles/jsgrid-theme.min.css' %}" />
+        <link rel="stylesheet" href="{% static 'dota_analytics/styles/scroll_filter.css' %}">
+        <link href="{% static 'dota_analytics/styles/css/multi.select.css' %}" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table.min.css">
+
+
+</head>
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand text-uppercase" href="/">Dota 2</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li><a class="nav-link" href="/">
+                        <i class="fas fa-home"></i>
+                    </a></li>
+                    <li><a id="search" class="nav-link" href="/search/">Search</a></li>
+                    <li><a id="chat" class="nav-link" href="/chat/">Chat</a></li>
+                    <li><a id="prediction" class="nav-link" href="/prediction/">Prediction</a></li>
+                    {% block analyses %}{% endblock %}
+                </ul>
+                <div class="header-right">
+                    <div>
+                        <i class="far fa-user"></i>
+                    </div>
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarUserDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Akshat Gupta</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarUserDropdown">
+                            <a id="logout" class="dropdown-item" href="/">Log out</a>
+                        </div>
+                    </li>
+                    <!--<div class="dropdown">-->
+                        <!--<button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"-->
+                            <!--aria-expanded="false">-->
+                            <!--Akshat Gupta-->
+                        <!--</button>-->
+                            <!--<a href="/" class="dropdown-menu logout" aria-labelledby="dropdownMenu2">Log out</a>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    {% block content %}
+    {% endblock %}
+
+    <!-- Basic UI Scripts -->
+    <script src="{% static 'dota_analytics/script/js/jquery-3.2.1.slim.min.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/js/popper.min.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/bootstrap-hover-dropdown.js' %}"></script>
+
+    <!-- Additional scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="{% static 'dota_analytics/script/vendor/jquery-1.10.2.min.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/jquery-migrate-1.2.1.min.js' %}"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="{% static 'dota_analytics/script/vendor/canvas-to-blob.min.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/sortable.min.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/purify.min.js' %}"></script>
+
+
+    <!--Angular Scripts-->
+    <script src = "{% static 'dota_analytics/script/vendor/angular.min.js' %}"></script>
+    <script src = "{% static 'dota_analytics/script/vendor/angular-route.min.js' %}"></script>
+    <script src = "{% static 'dota_analytics/script/vendor/angular-resource.min.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/html5shiv.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/respond.min.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/jquery.metisMenu.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/jquery.slimscroll.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/jquery.cookie.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/icheck.min.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/custom.min.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/jquery.menu.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/pace.min.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/holder.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/responsive-tabs.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/jquery.flot.js' %}"></script>
+    <script src="{% static 'dota_analytics/script/vendor/jquery.flot.categories.js' %}"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/wordcloud.js"></script>
+
+
+    <!-- Latest compiled and minified JavaScript Bootstrap select-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table.min.js"></script>
+
+
+
+
+    <script src="{% static 'dota_analytics/script/vendor/exporting.js' %}"></script>
+    <script>
+        $('#menu-toggle').on('click', function () {
+            console.log("inside menu-toggle click event");
+
+        });
+    </script>
+
+    {% block imports %}
+    {% endblock %}
+
+</body>
+</html>

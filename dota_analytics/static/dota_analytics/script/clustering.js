@@ -52,7 +52,7 @@
     });
     };
 
-    // Clear the previous model.
+    // Clear the previous prediction_model.
     foamtree.set("dataObject", null);
     foamtree.set("logging", true);
     url = "http://localhost:8983/solr/MY_PRODUCT/clustering?q=pCategory:"+ request +"&clustering.engine=stc&wt=json&indent=true"
@@ -129,8 +129,8 @@
 //                vars.groupColor.s = 50*(1+Math.abs(sentiment));
 //                vars.groupColor.l = Math.abs(60 * sentiment);
 //
-//                // Indicate that we use the HSL model
-//                vars.groupColor.model = "hsl";
+//                // Indicate that we use the HSL prediction_model
+//                vars.groupColor.prediction_model = "hsl";
 //              }
 //          },
               relaxationVisible: true,
