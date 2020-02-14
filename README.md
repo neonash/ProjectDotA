@@ -7,7 +7,7 @@ The complete documentation with all the advanced Software Engineering concepts a
 
 ## Application Details
 
-The application is based on the Django Web app framework with MySQL as backend database. Its based on MVC Architecture and is created based on service pipeline where the services are being implemented to run the predictions and fetching the data from the models via database. The architecture details are not followed as strictly. The front end is based on HTML/ Bootstrap with Jquery/Javascript as scripting framework. The frontend resides inside the Views which serves the HTML renderer and connects the Model to the requests via the Controllers
+The application is based on the Python based Django with MySQL as backend database. Its based on MVC Architecture and is created based on service pipeline where the services are being implemented to run the predictions and fetching the data from the models via database. The architecture details are not followed as strictly. The front end is based on HTML/ Bootstrap with Jquery/Javascript as scripting framework. The frontend resides inside the Views which serves the HTML renderer and connects the Model to the requests via the Controllers
 
 The landing page after the user logs into the app looks as below
 
