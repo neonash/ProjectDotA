@@ -12,7 +12,7 @@ cytoolz==0.10.1
 dask==2.10.1
 decorator==4.4.1
 defusedxml==0.6.0
-Django==2.2.5
+django>=2.2.10
 django-extensions==1.9.7
 eli5==0.10.1
 entrypoints==0.3
