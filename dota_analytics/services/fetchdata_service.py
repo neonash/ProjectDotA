@@ -44,7 +44,7 @@ def parseData(request):
     """Parse Data function to Input and prepare the data for Prediction."""
     records = request.POST['records']
     match_id = request.POST['match_id_hash']
-    new_data = formatNewdata(json.loads(records),match_id)
+    new_data = formatNewInputMatchData(json.loads(records), match_id)
     predictionvalue = predict(new_data)
     return HttpResponse(predictionvalue, status=200)
 
@@ -54,7 +54,7 @@ def predict(new_data):
     y_pred = gbmModel.predict(new_data, num_iteration=gbmModel.best_iteration)
     return y_pred
 
-def formatNewdata(records,match_id):
+def formatNewInputMatchData(records, match_id):
     """Format the data to transpose the match details to be passed to prediction function."""
     new_obj = {}
     for i in records:
