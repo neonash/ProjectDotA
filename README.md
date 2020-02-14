@@ -3,7 +3,7 @@ Repository for DotA Analytics
 
 This is a Django based Web App – Project DotA which is designed for DotA Players and Analysts to predict the match results using in game statistics.
 
-The complete documentation with all the advanced Software Engineering concepts and code highlights is available @ [Project DotA Documentation](Documentation/Project DotA Documentation.pdf)
+The complete documentation with all the advanced Software Engineering concepts and code highlights is available @ [Project DotA Documentation](Documentation/Project%20DotA%20Documentation.pdf)
 
 ## Application Details
 
