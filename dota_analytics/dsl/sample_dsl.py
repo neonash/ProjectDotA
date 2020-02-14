@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 
 
 class GaussPlay:
-    """Gaussian Data Creation and functional tool"""
+    """Gaussian Data Creation and functional tool."""
 
     def __init__(self):
         """
-        Constructor: to instantiate the data
+        Constructor: to instantiate the data.
         """
         self.data = np.random.randn(2, 200)
 
@@ -23,7 +23,7 @@ class GaussPlay:
 
     def scale(self, x, y):
         """
-        Scaling the matrix with different scales
+        Scaling the matrix with different scales.
         :return:
         """
         S = np.array([[x, 0], [0, y]])
@@ -32,7 +32,7 @@ class GaussPlay:
 
     def rotate(self, theta):
         """
-        Rotation by the required angle
+        Rotation by the required angle.
         """
         R = np.array([[np.cos(theta), -np.sin(theta)], [np.sin(theta), np.cos(theta)]])
         self.data = R @ self.data
@@ -40,7 +40,7 @@ class GaussPlay:
 
     def plot(self):
         """
-        Plot the  result in case scatter is not sufficient
+        Plot the  result in case scatter is not sufficient.
         :return:
         """
         plt.plot(self.data)
