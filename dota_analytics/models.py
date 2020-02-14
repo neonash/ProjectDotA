@@ -2,6 +2,8 @@ from django.db import models
 
 
 class TestData(models.Model):
+    """Test Data Model."""
+
     match_id_hash = models.CharField(primary_key=True, max_length=40)
     r1_hero_id = models.FloatField()
     r1_gold = models.FloatField()
@@ -55,12 +57,12 @@ class TestData(models.Model):
     d5_level = models.FloatField()
 
     class Meta:
-        """Test Data Model."""
-
         db_table = 'test_data'
 
 
 class TrainData(models.Model):
+    """Train Data Model."""
+
     match_id_hash = models.CharField(primary_key=True, max_length=40)
     r1_hero_id = models.FloatField()
     r1_gold = models.FloatField()
@@ -114,16 +116,15 @@ class TrainData(models.Model):
     d5_level = models.FloatField()
 
     class Meta:
-        """Train Data Model."""
-
         db_table = 'train_data'
 
 
 class TrainTargets(models.Model):
+    """Train Target Model."""
+
     match_id_hash = models.CharField(primary_key=True, max_length=40)
     radiant_win = models.IntegerField()
 
     class Meta:
-        """Train Target Model."""
 
         db_table = 'train_targets'
