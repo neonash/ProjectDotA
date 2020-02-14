@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f0006c1-3ce8-4973-a94d-9a26a878fadc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dota_analytics/keylink/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dota_analytics/keylink/key.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectDotA/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectDotA/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectDotA/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectDotA/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dota_analytics/config/dbConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/dota_analytics/config/dbConfig.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +39,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dota_analytics/static/dota_analytics/images/dashboard" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../atlas-gcp-master" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\49177\PycharmProjects\ProjectDotA\dota_analytics\tests" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\49177\PycharmProjects\ProjectDotA\dota_analytics\static\dota_analytics\images\dashboard" />
       <recent name="C:\Users\49177\PycharmProjects\ProjectDotA\dota_analytics\prediction_model" />
@@ -63,7 +68,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dota_analytics/tests.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\49177\PycharmProjects\ProjectDotA\dota_analytics\tests\tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +139,8 @@
       <workItem from="1581526316159" duration="7050000" />
       <workItem from="1581548091574" duration="3724000" />
       <workItem from="1581593912206" duration="8917000" />
-      <workItem from="1581641017820" duration="608000" />
+      <workItem from="1581641017820" duration="1920000" />
+      <workItem from="1581673356673" duration="25623000" />
     </task>
     <servers />
   </component>
@@ -158,34 +164,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580730840599" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581527432252">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581678155187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581527432252" />
-    <state width="1493" height="347" key="GridCell.Tab.0.bottom" timestamp="1581547891722">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581678155187" />
+    <state width="1493" height="347" key="GridCell.Tab.0.bottom" timestamp="1581675289107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581547891722" />
-    <state width="1493" height="347" key="GridCell.Tab.0.center" timestamp="1581547891722">
+    <state width="1493" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581675289107" />
+    <state width="1493" height="347" key="GridCell.Tab.0.center" timestamp="1581675289107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="347" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581547891722" />
-    <state width="1493" height="347" key="GridCell.Tab.0.left" timestamp="1581547891722">
+    <state width="1493" height="347" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581675289107" />
+    <state width="1493" height="347" key="GridCell.Tab.0.left" timestamp="1581675289107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="347" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581547891722" />
-    <state width="1493" height="347" key="GridCell.Tab.0.right" timestamp="1581547891722">
+    <state width="1493" height="347" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581675289107" />
+    <state width="1493" height="347" key="GridCell.Tab.0.right" timestamp="1581675289107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="347" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581547891722" />
-    <state x="279" y="58" key="SettingsEditor" timestamp="1581540492003">
+    <state width="1493" height="347" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581675289107" />
+    <state x="279" y="58" key="SettingsEditor" timestamp="1581678005117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581540492003" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581641025806">
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581678005117" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581673356792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581641025806" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581673356792" />
     <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1581269392518">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -194,12 +200,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="462" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1581641611103" />
-    <state x="490" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581641598090">
+    <state x="490" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581702741722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581641598090" />
+    <state x="490" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581702741722" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ProjectDotA$tests.coverage" NAME="tests Coverage Results" MODIFIED="1581540826854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dota_analytics" />
+    <SUITE FILE_PATH="coverage/ProjectDotA$tests.coverage" NAME="tests Coverage Results" MODIFIED="1581675283284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dota_analytics" />
   </component>
 </project>
