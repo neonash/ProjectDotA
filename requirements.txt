@@ -60,7 +60,7 @@ plotly==4.4.1
 pluggy==0.13.1
 prometheus-client==0.7.1
 prompt-toolkit==3.0.3
-py==1.8.1
+py==1.10.0
 pydot==1.4.1
 Pygments==2.5.2
 pyparsing==2.4.6
