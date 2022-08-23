@@ -43,7 +43,7 @@ mlxtend==0.17.1
 mock==4.0.1
 more-itertools==8.2.0
 mysqlclient
-nbconvert==5.6.1
+nbconvert==6.5.1
 nbformat==5.0.4
 networkx==2.4
 notebook==6.0.3
